@@ -12,15 +12,14 @@ skeltop = """<!DOCTYPE html>
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
 </head>
 <body>
-    <div>
-      <ul class="button">"""
+  <div>
+    <ul class="button">"""
 
 skelbot = """      </ul>
-    </div>
-
-	<footer>
-		"[3g0st]" artist, musician, engineer
-	</footer>
+	  <footer>
+		  "[3g0st]" artist, musician, engineer
+	  </footer>
+  </div>
 </body>
 </html>"""
 
