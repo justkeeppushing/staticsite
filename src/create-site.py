@@ -8,7 +8,7 @@ skeltop = """<!DOCTYPE html>
 <html>
 <head>
 <title>3g0st's corner</title>
-<link rel="stylesheet" href="includes/style.css">
+<link rel="stylesheet" href="style.css">
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
 </head>
 <body>
