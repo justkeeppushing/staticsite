@@ -1,28 +1,36 @@
 # My site generator
-
-### This is a mockup readme with a few ideas on how i can proliferate this. it's not necessarily accurate.
+### It's just a homemade linktree clone :)
 
 ## Usage
-Plug in your sites to items.json using schema example. The URLS must contain protocol. Any followable URL.
+Put any scripts, images, favicon in includes directory
 
-Title will be the label so name it how you want to see it. what goes in, comes out.
+Have the script that generates your html in src 
+run.sh makes a build dir, copies everything from includes (flat), and executes src script 
+Everything is hand coded right now because it's just for me 
 
-Gif backgrounds will be selected from gif/title.gif using title value. You must name them as such otherwise default style will be used. Gif backgrounds are only going to show on desktop on Hover, or for a short time on click for mobile.
+The rest is configured in github actions.
+You could easily use it in gitlab pages or equivalent, so long as you have the ability to
+run the script then copy over your build dir.
 
-You will need to provide your own favicon.ico in includes directory. Otherwise, none will be used.
+there shouldn't be any HTML in the repo itself (build dir is ignored so
+that local development will never be confused with cloudy development).
 
-You will need to provide your own style.css in the includes directory. Otherwise, none will be used.
-
-In the future i may make a prompt that allows for custom title element, as a higher level json object in the same items.json file.
-for now it's just mine so it doesn't really matter.
-
-no extra error checking right now either. 
-Running generate-site.py on its own just goes to STOUT. 
+On the cloud runner you just need and python3+ and any normie unix
 
 ## Running
-Have your script runner deploy run.sh, which is a one liner (tees to a file from generate-site.py)
+Github actions makes a temporary ubuntu instance in which to install python, and execute
+run.sh which just runs my python script. From there I tee the output of the python script
+to build/index.html. Then, github scrapes everything from build dir into their pages cloud.
 
-It generates index.html which you need to choose as your output (default for github pages i believe).
-For github pages, that should be all it needs, this is using python 3 list comprehension so it may need 3 or higher.
+The github action syntax and uses depend on their documentation and shit, but it's in here
+too at `.github/workflows/static.yml`. I only added in the "run.sh" and otherwise had to
+make sure other executable file had permissions with git since i'm developing in wsl.
 
-Ideally, you could make a branch per website and if i implement the changes above, you'd only need to provide the items.json file (maybe i could add additional meta/env vars/etc, but it's ok for now).
+if additional debugging is needed, it should be added inline to the scripts then
+monitored from the github actions panels for the corresponding "steps". 
+
+## Other ideas
+
+The code is very much "only i am using this" mode, i could add more switches and config options to make it truly portable. 
+
+I might do that "later" but for now functional is fine.
