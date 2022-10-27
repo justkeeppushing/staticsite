@@ -38,7 +38,8 @@ body {
 .button a:hover{
 	color: cyan;
   border-color: magenta;
-	background-color:rgba(0,0,0,.7);
+  background-image: url('bg-sky-twinkling.gif');
+	/* background-color:rgba(0,0,0,.7); */
 }
 
 footer {
@@ -50,5 +51,17 @@ footer {
   text-align: left;
 	color:yellow;
   border-top:1px solid black;
-  /*border: 1px solid cyan;*/
+  background-repeat: no-repeat;
+  background-image: url('bunnyhopping.gif');
+  background-position: right;
+  height: 40px;
+  /* border: 1px solid cyan; */
+
+}
+
+div .textwrapper {
+width: 100%; 
+float: left; 
+display: inline; 
+margin-top: 20px;
 }

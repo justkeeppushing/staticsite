@@ -9,7 +9,7 @@ skeltop = """<!DOCTYPE html>
 <head>
 <title>3g0st's corner</title>
 <link rel="stylesheet" href="style.css">
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css">
 </head>
 <body>
   <div>
@@ -17,7 +17,7 @@ skeltop = """<!DOCTYPE html>
 
 skelbot = """      </ul>
 	  <footer>
-		  "[3g0st]" artist, musician, engineer
+		  <div class="textwrapper">"[3g0st]" artist, musician, engineer
 	  </footer>
   </div>
 </body>
