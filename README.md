@@ -34,3 +34,9 @@ monitored from the github actions panels for the corresponding "steps".
 The code is very much "only i am using this" mode, i could add more switches and config options to make it truly portable. 
 
 I might do that "later" but for now functional is fine.
+
+
+## Broblems
+
+It's going to run right now even if unrelated files are modified, i think. 
+I'm sure that could be fixed up with some kind of setting in the github actions yml but I am lazy.
