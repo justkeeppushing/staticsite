@@ -1,5 +1,7 @@
 # My site generator
 
+### This is a mockup readme with a few ideas on how i can proliferate this. it's not necessarily accurate.
+
 ## Usage
 Plug in your sites to items.json using schema example. The URLS must contain protocol. Any followable URL.
 
@@ -7,9 +9,9 @@ Title will be the label so name it how you want to see it. what goes in, comes o
 
 Gif backgrounds will be selected from gif/title.gif using title value. You must name them as such otherwise default style will be used. Gif backgrounds are only going to show on desktop on Hover, or for a short time on click for mobile.
 
-You will need to provide your own favicon.ico in root directory. Otherwise, none will be used.
+You will need to provide your own favicon.ico in includes directory. Otherwise, none will be used.
 
-You will need to provide your own style.css in the root directory. Otherwise, none will be used.
+You will need to provide your own style.css in the includes directory. Otherwise, none will be used.
 
 In the future i may make a prompt that allows for custom title element, as a higher level json object in the same items.json file.
 for now it's just mine so it doesn't really matter.
