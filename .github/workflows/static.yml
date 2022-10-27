@@ -33,7 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Generate site
-        run: './run.sh'
+        run: 'chmod +x run.sh & ./run.sh'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
