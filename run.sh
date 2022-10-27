@@ -2,5 +2,9 @@
 
 # .. if index.html exists
 # ask to proceed
-# 
-./src/create-site.py | tee index.html 
+# etc
+
+
+mkdir -p build/includes
+cp -av includes/ build/
+./src/create-site.py | tee build/index.html 
