@@ -1,28 +1,38 @@
 [
-	{
-			"href": "https://3g0st.bandcamp.com",
-			"title": "bandcamp"
-	},	{
-			"href": "https://www.youtube.com/channel/UCMohvmvOcTJJ47AziNIvgqw",
-			"title": "youtube"
-	},	{
-			"href": "https://twitter.com/3g0st",
-			"title": "twitter"
-	},	{
-			"href": "https://deviantart.com/3g0st",
-			"title": "deviantart"
-	},	{
-			"href": "https://twitch.tv/3g0st",
-			"title": "twitch"
-	},	{
-			"href": "https://ko-fi.com/3g0st",
-			"title": "ko-fi"
-	},  {
-      "href": "https://github.com/justkeeppushing",
-      "title": "github"
-  }, {
-	  "href": "https://en.pronouns.page/@3g0st",
-	  "title": "prounouns"
+  {
+    "href": "https://3g0st.bandcamp.com",
+    "title": "bandcamp"
+  },
+  {
+    "href": "https://www.youtube.com/channel/UCMohvmvOcTJJ47AziNIvgqw",
+    "title": "youtube"
+  },
+  {
+    "href": "https://twitter.com/3g0st",
+    "title": "twitter"
+  },
+  {
+    "href": "https://deviantart.com/3g0st",
+    "title": "deviantart"
+  },
+  {
+    "href": "https://twitch.tv/3g0st",
+    "title": "twitch"
+  },
+  {
+    "href": "https://ko-fi.com/3g0st",
+    "title": "ko-fi"
+  },
+  {
+    "href": "https://github.com/justkeeppushing",
+    "title": "github"
+  },
+  {
+    "href": "https://en.pronouns.page/@3g0st",
+    "title": "prounouns"
+  },
+  {
+    "href": "https://steamcommunity.com/id/3g0st",
+    "title": "steam"
   }
-
 ]
