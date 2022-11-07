@@ -16,16 +16,16 @@
     "title": "deviantart"
   },
   {
+    "href": "https://3g0st.tumblr.com",
+    "title": "tumblr"
+  },
+  {
     "href": "https://twitch.tv/3g0st",
     "title": "twitch"
   },
   {
     "href": "https://ko-fi.com/3g0st",
     "title": "ko-fi"
-  },
-  {
-    "href": "https://github.com/justkeeppushing",
-    "title": "github"
   },
   {
     "href": "https://en.pronouns.page/@3g0st",
@@ -40,7 +40,11 @@
     "title": "itch.io"
   },
   {
-    "href": "https://3g0st.tumblr.com",
-    "title": "tumblr"
+    "href": "https://github.com/justkeeppushing",
+    "title": "github"
+  },
+  {
+    "href": "https://github.com/justkeeppushing/resume/blob/main/RESUME.md",
+    "title": "resume"
   }
 ]
