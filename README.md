@@ -1,5 +1,5 @@
 # My site generator
-### It's just a homemade linktree clone :)
+#### It's just a homemade linktree clone :)
 
 ## Usage
 Put any scripts, images, favicon in includes directory
