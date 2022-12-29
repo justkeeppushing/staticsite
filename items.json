@@ -12,10 +12,6 @@
     "title": "twitter"
   },
   {
-    "href": "https://deviantart.com/3g0st",
-    "title": "deviantart"
-  },
-  {
     "href": "https://3g0st.tumblr.com",
     "title": "tumblr"
   },
@@ -32,10 +28,6 @@
     "title": "prounouns"
   },
   {
-    "href": "https://steamcommunity.com/id/3g0st",
-    "title": "steam"
-  },
-  {
     "href": "https://justkeeppushing.itch.io",
     "title": "itch.io"
   },
@@ -46,5 +38,9 @@
   {
     "href": "https://github.com/justkeeppushing/resume/blob/main/RESUME.md",
     "title": "resume"
+  },
+  {
+    "href": "https://social.treehouse.systems/@3g0st",
+    "title": "mastodon"
   }
 ]
